@@ -72,6 +72,7 @@ public class LoadPath extends AppCompatActivity {
                 Log.d("fileee", "data is: " + builder.toString());
                 JSONObject punti = new JSONObject(builder.toString());
                 Log.d("filee", "JSON parsed" + punti.toString());
+                MyModel.coordinate(punti);
 
             } else {
                 Log.d("fileee", "result IS NOT OK");
