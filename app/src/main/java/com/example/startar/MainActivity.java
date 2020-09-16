@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void arNav(View v) {
+        Intent intent = new Intent(getApplicationContext(), ArNav.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onResume() {
         super.onResume();
